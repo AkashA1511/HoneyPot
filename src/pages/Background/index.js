@@ -1,2 +1,2 @@
-console.log('This is the background page.');
-console.log('Put the background scripts here.');
+console.log('This is Working Fine.');
+console.log('Put the content script now or call API');

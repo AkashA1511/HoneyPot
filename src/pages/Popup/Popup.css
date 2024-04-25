@@ -1,4 +1,4 @@
-.App {
+/* .App {
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -8,7 +8,21 @@
   height: 100%;
   padding: 10px;
   background-color: #282c34;
+} */
+
+.App {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  height: 200%; /* This sets the height of the popup container to 100% of the viewport height */
+  width: 300px; /* Adjust this width to increase the width of the popup */
+  padding: 10px;
+  background-color: #282c34;
 }
+
 
 .App-logo {
   height: 30vmin;
@@ -43,3 +57,24 @@
     transform: rotate(360deg);
   }
 }
+
+.riskyButton {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.nonRiskyButton {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* You can add additional CSS styles as needed */
